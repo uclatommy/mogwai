@@ -7,7 +7,7 @@ from setuptools import setup, find_packages
 
 version = open('mogwai/VERSION', 'r').readline().strip()
 develop_requires = ['Sphinx==1.2.2',
-    'Twisted>=13.2.0,<14.0.0',
+    'Twisted==15.5.0',
     'blinker==1.2',
     'coverage==3.7.1',
     'detox==0.9.3',
@@ -69,7 +69,7 @@ setup(
                       'argparse>=1.2.1',
                       'factory-boy>=2.4.1',
                       'pyformance==0.2.4',
-                      'Twisted>=13.2.0,<14.0.0',
+                      'Twisted>=15.5.0',
                       'pytz>=2014.4'],
     extras_require={
         'develop': develop_requires,

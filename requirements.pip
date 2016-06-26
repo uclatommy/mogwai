@@ -3,7 +3,7 @@ MarkupSafe==0.19
 PyYAML==3.10
 Pygments==1.6
 Sphinx==1.2.2
-Twisted==13.2.0
+Twisted==15.5.0
 argh==0.24.1
 argparse==1.2.1
 blessings==1.5.1
